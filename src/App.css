@@ -1,7 +1,10 @@
 .app-container {
-
-
-    height: 100%;
-    width: 100%;
+    border: 3px solid green;
+    box-sizing: border-box;
+    height: 100vh;
 
 }
+
+
+
+/* starts from here the next work */

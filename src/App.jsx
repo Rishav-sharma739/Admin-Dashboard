@@ -11,7 +11,6 @@ function App() {
 
       <LoginScreen />
 
-
     </div>
   )
 }

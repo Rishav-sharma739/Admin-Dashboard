@@ -9,18 +9,18 @@
 html {
     box-sizing: border-box;
     min-height: 100vh;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
 }
 
 #root {
     box-sizing: border-box;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 5px;
+    /* padding: 5px; */
 
 }
 
@@ -29,8 +29,8 @@ html {
 
 body {
 
-    border: 3px solid black;
-    margin: 15px;
+    /* border: 3px solid black; */
+    /* margin: 15px; */
     padding: 0px;
     box-sizing: border-box;
     display: flex;

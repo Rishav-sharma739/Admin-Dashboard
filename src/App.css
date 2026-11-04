@@ -1,9 +1,8 @@
 .app-container {
     border: 3px solid red;
     box-sizing: border-box;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
-
 }

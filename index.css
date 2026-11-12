@@ -1,3 +1,23 @@
+/* Fonts register */
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./src/assets/Fonts/Satoshi-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./src/assets/Fonts/Satoshi-VariableItalic.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+
+
+
+
+
 *,
 *::before,
 *::after {
@@ -36,4 +56,8 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    font-family: 'Satoshi';
+
+
+
 }

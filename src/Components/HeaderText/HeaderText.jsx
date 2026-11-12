@@ -2,12 +2,26 @@ import '../component.css'
 
 
 
-export const HeaderText = () => {
-    return (
-        <div className="header-text-container">
 
-            <text className="header-text">
-                Hey buddy
+
+export const HeaderText = ({
+    title,
+    containerStyle,
+    textStyle,
+}) => {
+
+
+    return (
+        <div
+            className="header-text-container"
+            style={containerStyle}>
+
+            <text
+                className="header-text"
+                style={textStyle}>
+
+                {title || ""}
+
             </text>
 
 

@@ -1,6 +1,112 @@
-.header-text-container {}
+.header-text-container {
+    width: fit-content;
+    min-height: fit-content;
+}
 
 .header-text {
     font-size: 28px;
     font-weight: 500;
+}
+
+/* Custom Input Field */
+
+.input-field-container {
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px
+}
+
+.input-field {
+    width: 100%;
+    background-color: #F5F5F5;
+    border: 1px solid #8E8E8E;
+    border-radius: 5px;
+    padding: 4px 5px;
+    font-size: 10px;
+    outline: none;
+}
+
+.input-field.input-error {
+    border-color: red
+}
+
+.input-validation-error {
+    font-size: 8px;
+    color: red;
+}
+
+
+.input-field::placeholder {
+    color: #8E8E8E;
+    opacity: 1;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+
+
+.input-field-label {
+    font-size: 11.5px;
+    font-weight: 500;
+}
+
+/* Custom button styles */
+
+.custom-button-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.custom-button {
+    display: flex;
+    width: 100%;
+    background-color: #06402A;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.custom-button:hover {
+    margin: 0.5px
+}
+
+.custom-button:active {
+    transform: scale(0.93)
+}
+
+.custom-button-text {
+    color: white;
+    font-size: 12px;
+}
+
+/* Toast styles */
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+
+    display: flex;
+    flex-direction: 'row';
+    align-items: center;
+    gap: 12px;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: #979191;
+
+
 }
